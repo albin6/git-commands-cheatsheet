@@ -1,5 +1,33 @@
 # Git Commands Cheat Sheet
 
+## Git Terminology
+
+Here are some key terms to understand Git commands better:
+
+- **Repository (Repo)**: A directory where your project's code and version history are stored. It's the core of Git's functionality.
+- **Commit**: A snapshot of your project's current state. Think of it as saving your progress.
+- **Branch**: A pointer to a series of commits. Used to develop features or work on fixes separately from the main codebase.
+- **Staging Area (Index)**: A preparatory area where changes are placed before committing. It helps you organize what gets committed.
+- **Working Directory**: The local directory where your project files reside. Changes made here can be staged or committed.
+- **Remote Repository**: A repository hosted on a server (like GitHub, GitLab, or Bitbucket) that allows collaboration with others.
+- **Clone**: Copying a remote repository to your local machine.
+- **Pull**: Fetching changes from a remote repository and merging them into your local branch.
+- **Push**: Sending your local changes to a remote repository.
+- **Merge**: Combining changes from one branch into another.
+- **Rebase**: Reapplying commits on top of another branch's history, often used to clean up commit history.
+- **Tag**: A marker for a specific commit, usually used for releases.
+- **Stash**: A way to save changes temporarily without committing them.
+- **Reset**: Undoing changes by moving the current branch to a different commit.
+- **Revert**: Creating a new commit to undo changes made by a specific previous commit.
+- **Checkout**: Switching between branches or specific commits.
+- **HEAD**: The current commit or branch that you are working on.
+- **Upstream/Origin**: A reference to a remote repository (commonly named `origin`).
+- **Conflict**: Happens when Git cannot automatically resolve differences between branches during a merge or rebase.
+- **Fast-Forward Merge**: A merge that simply moves the branch pointer because no additional commits exist on the target branch.
+- **Detached HEAD**: A state where HEAD points to a specific commit instead of a branch.
+
+Use this glossary to enhance your understanding of Git commands and workflows.
+
 ## Basics
 - `git init` - Initialize a new Git repository.
 - `git clone <repo-url>` - Clone a repository into a new directory.
